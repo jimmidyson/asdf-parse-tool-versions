@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: gather versions
-        uses: jimmidyson/asdf-parse-tool-versions@v1
+        uses: jimmidyson/asdf-parse-tool-versions@v2
         id: versions
 
       - name: install Go
